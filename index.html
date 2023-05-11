@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+
+<link rel="stylesheet" href="./style/style.css" />
+</head>
+
+<body>
+  <img class="img1" src="./Asset/bg/bg-2.svg" alt="" />
+  <div class="header">
+    <img class="star-down" src="./Asset/icon/down_star.svg" alt="" />
+    <div class="content">
+      <nav>
+        <div class="navbar">
+          <div class="nav-brand">
+            <img src="./Asset/Logo/brand-io.svg" alt="" />
+          </div>
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="">Home</a></li>
+            <li class="nav-item"><a href="">About Us</a></li>
+            <li class="nav-item"><a href="">Services</a></li>
+            <li class="nav-item"><a href="">Contact Us</a></li>
+          </ul>
+
+          <button class="btn1">Login</button>
+          <button class="openbtn" onclick="openNav()">
+            <i class="fa fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+      <aside id="mySidebar" class="sidebar">
+        <div class="aside-head">
+          <img src="./Asset/Logo/brand-io.svg" alt="" />
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
+        </div>
+        <div class="aside-body">
+          <div class="aside-nav">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Services</a>
+            <a href="#">Contact Us</a>
+          </div>
+          <div class="banner-btn">
+            <button class="btn1 btn1b">Login</button>
+            <button><span class="text-bg">Contact Us</span></button>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Banner -->
+      <div class="banner">
+        <div class="banner-left">
+          <h1 class="h1-bg">Tell a better brand story</h1>
+          <p>
+            Warrant present garrets limited cordial in inquiry to. Supported
+            me sweetness behaviour shameless excellent so arranging.
+          </p>
+          <div class="banner-btn">
+            <button>Get Started</button>
+            <button><span class="text-bg">Contact Us</span></button>
+          </div>
+        </div>
+        <div class="banner-right">
+          <div class="right-left">
+            <div class="right1 banner-card">
+              <img src="./Asset/icon/profile.svg" alt="" />
+              <h3>
+                Amanda M.<br />
+                Data
+              </h3>
+              <p>Your Growth</p>
+              <h3 class="text-bg text2">3,000</h3>
+            </div>
+            <div class="right3 banner-card">
+              <div class="media-head">
+                <h3>Follower Growth</h3>
+                <div class="icons">
+                  <img src="./Asset/icon/layout.svg" alt="" />
+                  <span class="text-bg">.</span>
+                  <img src="./Asset/icon/download.svg" alt="" />
+                </div>
+              </div>
+              <p><span class="media-down">16.2k</span> New Followers</p>
+              <img src="./Asset/icon/graph-1.png" alt="" />
+            </div>
+          </div>
+          <div class="right-right">
+            <div class="right2 banner-card">
+              <div class="media-head">
+                <h3>Media Type</h3>
+                <div class="icons">
+                  <img src="./Asset/icon/layout.svg" alt="" />
+                  <span class="text-bg">.</span>
+                  <img src="./Asset/icon/download.svg" alt="" />
+                </div>
+              </div>
+              <img src="./Asset/icon/media.svg" alt="" />
+            </div>
+            <!-- <span class="wrapper"> -->
+            <div class="right4 banner-card">
+              <div class="followers">
+                <h2>14k</h2>
+              </div>
+              <div class="lines">
+                <div class="media-head">
+                  <h3>Follower Growth</h3>
+                </div>
+                <div class="bar-main">
+                  <div class="bar">
+                    <div class="bar-fill"></div>
+                  </div>
+                  <div class="bar">
+                    <div class="bar-fill"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="right5 banner-card">
+              <img src="./Asset/icon/wow.svg" alt="" />
+              <img src="./Asset/icon/angry.svg" alt="" />
+              <img src="./Asset/icon/heart.svg" alt="" />
+            </div>
+            <!-- </span> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bandmain">
+    <div class="band">
+      <img src="./Asset/Logo/planday.svg" alt="" />
+    </div>
+    <div class="band">
+      <img src="./Asset/Logo/umbraco.svg" alt="" />
+    </div>
+    <div class="band">
+      <img src="./Asset/Logo/pearlfisher.svg" alt="" />
+    </div>
+    <div class="band">
+      <img src="./Asset/Logo/brightpearl.svg" alt="" />
+    </div>
+    <div class="band">
+      <img src="./Asset/Logo/planday.svg" alt="" />
+    </div>
+  </div>
+  <section class="sectionmid">
+    <section class="section1">
+      <div class="section-header">
+        <h1 class="section-bg">What we Offer?</h1>
+        <p>
+          in virtual space through communication platforms. Durable relations
+          that<br />
+          extend beyond immediate genealogical ties.
+        </p>
+      </div>
+      <div class="section-body">
+        <div class="card">
+          <div class="card-icon">
+            <img src="./Asset/icon/message.png" alt="" />
+          </div>
+          <h3>Community Support</h3>
+          <p>
+            Apps keep work and information right at your fingertips—and Slack
+            keeps it all securely.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <img src="./Asset/icon/shield.png" alt="" />
+          </div>
+          <h3>security first</h3>
+          <p>
+            Connect the tools you already use to get more from them every time
+            you work.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <img src="./Asset/icon/headphone.png" alt="" />
+          </div>
+          <h3>24/7 admin support</h3>
+          <p>
+            You can work with apps in channels, where they’re a seamless part
+            of the conver.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <img src="./Asset/icon/Themes.png" alt="" />
+          </div>
+          <h3>100+ themes</h3>
+          <p>
+            Spend less time tracking down the people needed to get work done.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <img src="./Asset/icon/globe.png" alt="" />
+          </div>
+          <h3>fully integrated</h3>
+          <p>
+            Skip the follow-ups and back-and -forth. Easily standardize how
+            you collect
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <img src="./Asset/icon/notes.png" alt="" />
+          </div>
+          <h3>monthly update</h3>
+          <p>
+            Take control of your work day. In a just a few minutes, create a
+            customized workflow
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section2">
+      <div class="section2-left">
+        <div class="section-header">
+          <h1 class="section-bg">How it Works?</h1>
+          <p>
+            Resolving neglected sir tolerably but existence conveying for. Day
+            his put off unaffected literature partiality inhabiting.
+          </p>
+        </div>
+        <div class="maincard maincard-bg1">
+          <div class="card1 card-bg">
+            <img src="./Asset/icon/card-graph1.svg" alt="" />
+            <img src="./Asset/icon/card-graph2.svg" alt="" />
+            <div class="inlineitems">
+              <img class="inline-img" src="./Asset/icon/people-3.svg" alt="" />
+              <img class="inline-img" src="./Asset/icon/card-graph3.svg" alt="" />
+            </div>
+          </div>
+          <div class="card2 card-bg">
+            <div class="timebox">
+              <img src="./Asset/icon/people-4.svg" alt="" />
+            </div>
+            <img src="./Asset/icon/card-graph4.svg" alt="" />
+          </div>
+          <h2>Intelligence</h2>
+          <p>
+            Marketing intelligence (MI) is the everyday information relevant
+            to a company’s markets
+          </p>
+        </div>
+        <img src="./Asset/icon/up_star.svg" alt="" />
+      </div>
+      <div class="section2-right">
+        <div class="maincard maincard2 maincard-bg2">
+          
+          <div class="card3 card3a card-bg">
+            <div class="dollar">
+              <h2>$5k</h2>
+            </div>
+            <img class="inline-img" src="./Asset/icon/people-1.svg" alt="" />
+            <div class="graph-list">
+              <img src="./Asset/icon/card-graph5.svg" alt="" />
+              <img src="./Asset/icon/card-graph6.svg" alt="" />
+            </div>
+            <img src="./Asset/icon/location.svg" alt="" />
+          </div>
+          <div class="card3 card3b card-bg">
+            <img class="inline-img" src="./Asset/icon/people-2.svg" alt="" />
+            <div class="graph-list">
+              <img src="./Asset/icon/card-graph5.svg" alt="" />
+              <img src="./Asset/icon/card-graph6.svg" alt="" />
+            </div>
+            <img src="./Asset/icon/location.svg" alt="" />
+          </div>
+          <h2>Marketing</h2>
+          <p>
+            Marketing intelligence is necessary when entering a foreign
+            market. determines the intelligence needed
+          </p>
+        </div>
+        <div class="maincard3">
+          <div class="earnings card-bg">
+            <div class="earnings1">
+              <div class="earnings1a">
+                <div class="line1">
+                  <div class="circle"></div>
+                  <div class="line1a">
+                    <h2>$500+</h2>
+                    <p>Earn per day</p>
+                  </div>
+                </div>
+              </div>
+              <div class="earnings1b">
+                <div class="line1">
+                  <div class="circle circle-bg"></div>
+                  <div class="line1a">
+                    <h2>$50</h2>
+                    <p>Pay us</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img src="./Asset/icon/Earning.svg" alt="" />
+            <h2>$15,000+</h2>
+            <p>Earning</p>
+          </div>
+          <div class="dashboard card-bg">
+            <p>Dashboard</p>
+            <img src="./Asset/icon/graph-3.svg" alt="" />
+          </div>
+          <div class="earnings2 card-bg">
+            <h2>External data</h2>
+            <p>This allows them to see current key performance ..</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <section class="section3">
+    <div class="section-header">
+      <h1 class="section-bg">Our plans scale with your product</h1>
+      <p>in virtual space through communication platforms.</p>
+    </div>
+    <div class="section3-card">
+      <div class="sec-card1 cd">
+        <h2>For Starter</h2>
+        <h2 class="h1-bg">$59</h2>
+        <ul>
+          <li>Feedback Categorization</li>
+          <li>Features prioritization</li>
+          <li>Real-time collaboration</li>
+          <li>Feedback loop notifications</li>
+          <li>Essential dev tools integrations</li>
+        </ul>
+        <button><span class="text-bg">Contact Us</span></button>
+      </div>
+      <div class="sec-card2 cd">
+        <h2>For Teams</h2>
+        <h2 class="h1-bg">$99</h2>
+        <ul>
+          <li>Feedback Categorization</li>
+          <li>Features prioritization</li>
+          <li>Real-time collaboration</li>
+          <li>Feedback loop notifications</li>
+          <li>Essential dev tools integrations</li>
+        </ul>
+        <button><span class="text-bg">Contact Us</span></button>
+      </div>
+      <div class="sec-card3 cd">
+        <h2>For Company</h2>
+        <h2 class="h1-bg">Custom</h2>
+        <ul>
+          <li>Feedback Categorization</li>
+          <li>Feedback loop notifications</li>
+          <li>Essential dev tools integrations</li>
+        </ul>
+        <button><span class="text-bg">Contact Us</span></button>
+      </div>
+    </div>
+  </section>
+  <section class="section4">
+    <img src="./Asset/bg/bg-4.svg" alt="" />
+    <div class="section-header">
+      <h1 class="section-bg">
+        What Our Clients Say<br />
+        About Us
+      </h1>
+      <p>
+        Community development is often linked with community work or<br />
+        community planning, and may involve stakeholders, foundations,
+      </p>
+    </div>
+
+    <div class="carousel ">
+      <div class="card6">
+        <span>&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;</span>
+
+        <p>
+          Up maids me an ample stood given. Certainty say suffering his him
+          collected intention promotion.
+        </p>
+
+        <div class="undername">
+          <span>Chris Evans</span>
+
+          <span>Client from USA</span>
+        </div>
+      </div>
+
+      <div class="card6">
+        <span>&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;</span>
+
+        <p>
+          Certainty say suffering his him collected intention promotion. Hill
+          sold ham men made lose case. Views abode law heard
+        </p>
+
+        <div class="undername">
+          <span>Andrew Chris</span>
+
+          <span>Client from Uganda</span>
+        </div>
+      </div>
+      <div class="card6">
+        <span>&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;</span>
+
+        <p>
+          Up maids me an ample stood given. Certainty say suffering his him
+          collected intention promotion.
+        </p>
+
+        <div class="undername">
+          <span>Chris Evans</span>
+
+          <span>Client from USA</span>
+        </div>
+      </div>
+
+      <div class="card6">
+        <span>&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;</span>
+
+        <p>
+          Certainty say suffering his him collected intention promotion. Hill
+          sold ham men made lose case. Views abode law heard
+        </p>
+
+        <div class="undername">
+          <span>Andrew Chris</span>
+
+          <span>Client from Uganda</span>
+        </div>
+      </div>
+
+      <div class="card6">
+        <span>&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;</span>
+
+        <p>
+          Up maids me an ample stood given. Certainty say suffering his him
+          collected intention promotion.
+        </p>
+
+        <div class="undername">
+          <span>Chris Evans</span>
+
+          <span>Client from USA</span>
+        </div>
+      </div>
+     <div class="card6">
+        <span>&bigstar;&bigstar;&bigstar;&bigstar;&bigstar;</span>
+
+        <p>
+          Certainty say suffering his him collected intention promotion. Hill
+          sold ham men made lose case. Views abode law heard
+        </p>
+
+        <div class="undername">
+          <span>Andrew Chris</span>
+
+          <span>Client from Uganda</span>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section class="section5">
+    <div class="projects-head">
+      <div class="projects-card">
+        <h1 class="h1-bg">25,356</h1>
+        <p>Projects Done</p>
+      </div>
+      <div class="projects-card">
+        <h1 class="h1-bg">1M+</h1>
+        <p>Projects Done</p>
+      </div>
+      <div class="projects-card">
+        <h1 class="h1-bg">95%</h1>
+        <p>Happy Customers</p>
+      </div>
+    </div>
+    <div class="projects-body">
+      <div class="section-header">
+        <h1 class="section-bg">Want to start a Project With us?</h1>
+        <p>
+          Warrant present garrets limited cordial in inquiry to. Supported me
+          sweetness behaviour shameless excellent so arranging.
+        </p>
+        <button class="getstarted">Get Started</button>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-content">
+      <div class="footer-head">
+        <h1 class="h1-bg">Social Media Its Ways Of Our Excellence.</h1>
+        <div class="input-container">
+          <input type="text" placeholder="Enter Your Email" />
+          <button type="button">
+            <div class="abtn">
+              Get started
+              <div class="arrow">
+                <img src="./Asset/icon/arrow.svg" alt="rightarrow" />
+              </div>
+            </div>
+          </button>
+        </div>
+        <div class="vedio">
+          <img src="./Asset/icon/people-5.svg" alt="" />
+          <p>Watch our video</p>
+        </div>
+      </div>
+      <div class="footerbottom">
+        <nav>
+          <div class="navbar">
+            <div class="nav-brand">
+              <img src="./Asset/Logo/brand-io.svg" alt="" />
+            </div>
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="">Home</a></li>
+              <li class="nav-item"><a href="">About Us</a></li>
+              <li class="nav-item"><a href="">Services</a></li>
+              <li class="nav-item"><a href="">Contact Us</a></li>
+            </ul>
+            <div class="media-icons">
+              <a href="https://www.facebook.com/"><img src="./Asset/icon/fb.svg" alt="" /></a>
+              <a href="https://twitter.com"><img src="./Asset/icon/insta.svg" alt="" /></a>
+              <a href="https://www.youtube.com/"><img src="./Asset/icon/utube.svg" alt="" /></a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="copyright">
+        <p>Copyright © Brands.io creative</p>
+      </div>
+    </div>
+    <img src="./Asset/icon/up_star-2 (1).svg" alt="" />
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+<script src="./Script/script.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"
+    integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
